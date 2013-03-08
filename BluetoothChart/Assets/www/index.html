@@ -1,0 +1,179 @@
+<!---<!DOCTYPE HTML>
+<html> 
+<head> 
+	<script src="jquery.js"></script>
+	<script src="js/highcharts.src.js"></script>
+	<script type="text/javascript" src="js/themes/gray.js"></script>
+	<script>
+	var addPoint;
+	$(document).ready(function() { 
+		var chart1 = new Highcharts.Chart({
+			chart: {
+				renderTo: 'container',
+				zoomType: 'x',
+                spacingRight: 20
+			},
+			title: {
+				text: 'Fruit Consumption'
+			},
+			xAxis: {
+                type: 'linear',
+                maxZoom: 5, // fourteen days
+                title: {
+                    text: null
+                }
+            },
+			yAxis: {
+                title: {
+                    text: 'Exchange rate'
+                },
+                showFirstLabel: false
+            },
+            legend: {
+                enabled: false
+            },
+			plotOptions: {
+                area: {
+                    
+                    lineWidth: 1,
+                    marker: {
+                        enabled: false,
+                        states: {
+                            hover: {
+                                enabled: true,
+                                radius: 5
+                            }
+                        }
+                    },
+                    shadow: false,
+                    states: {
+                        hover: {
+                            lineWidth: 1
+                        }
+                    },
+                    threshold: null
+                }
+            }, series: [{
+                type: 'line',
+                name: 'Vibration',
+                pointInterval: 1,
+                pointStart: 0,
+                data: [
+                    0
+                    
+                ]
+            }]
+		});
+		
+		addPoint=function(y){
+			if(chart1.series[0].data.length<20){
+				chart1.series[0].addPoint(y);
+			}else{
+				newmass=chart1.series[0].data[0].remove();
+				chart1.series[0].addPoint(y);
+			}
+		}
+	});
+	
+	</script>
+	<style>
+	
+	</style>
+	
+</head>
+<body>
+	<div id="container">
+	
+	</div>
+</body>
+</html>-->
+<!DOCTYPE HTML>
+<html> 
+<head> 
+<script src="jquery.js"></script>
+<!--<script src="js/highcharts.src.js"></script>
+<script type="text/javascript" src="js/themes/gray.js"></script>-->
+<script>
+var addPoint;
+$(document).ready(function() { 
+/*var chart1 = new Highcharts.Chart({
+chart: {
+renderTo: 'container',
+zoomType: 'x',
+spacingRight: 20
+},
+title: {
+text: 'Fruit Consumption'
+},
+xAxis: {
+type: 'linear',
+maxZoom: 5, // fourteen days
+title: {
+text: null
+}
+},
+yAxis: {
+title: {
+text: 'Exchange rate'
+},
+showFirstLabel: false
+},
+legend: {
+enabled: false
+},
+plotOptions: {
+area: {
+
+lineWidth: 1,
+marker: {
+enabled: false,
+states: {
+hover: {
+enabled: true,
+radius: 5
+}
+}
+},
+shadow: false,
+states: {
+hover: {
+lineWidth: 1
+}
+},
+threshold: null
+}
+}, series: [{
+type: 'line',
+name: 'Vibration',
+pointInterval: 1,
+pointStart: 0,
+data: [
+0
+
+]
+}]
+});*/
+
+addPoint=function(y){
+/*if(chart1.series[0].data.length<20){
+chart1.series[0].addPoint(y);
+}else{
+newmass=chart1.series[0].data[0].remove();
+chart1.series[0].addPoint(y);
+}*/
+$("#container").append(y+"<br>");
+}
+});
+
+</script>
+<style>
+
+</style>
+
+</head>
+<body>
+<div id="container">
+
+</div>
+</body>
+</html>

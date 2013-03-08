@@ -1,0 +1,34 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="BluetoothChat.cs">
+    <Files>
+      <File FileName="BluetoothChat.cs" Line="76" Column="31" />
+      <File FileName="BluetoothChatService.cs" Line="1" Column="1" />
+      <File FileName="DeviceListActivity.cs" Line="1" Column="1" />
+      <File FileName="GraphicsSurfaceView.cs" Line="26" Column="34" />
+      <File FileName="DrawThread.cs" Line="1" Column="1" />
+      <File FileName="PointsCloud.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="BluetoothGraphTerminal" expanded="True">
+            <Node name="Resources" expanded="True">
+              <Node name="layout" expanded="True" />
+              <Node name="values" expanded="True" />
+            </Node>
+            <Node name="BluetoothChat.cs" selected="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.BluetoothGraphTerminal MonoForAntroid.PreferredDevice="3.7in WVGA (Nexus One)" AndroidDeviceId-Debug="FA2BEW401250" AndroidDeviceId-Release="FA2BEW401250" />
+</Properties>

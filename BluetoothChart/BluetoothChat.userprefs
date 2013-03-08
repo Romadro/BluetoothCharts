@@ -1,0 +1,13 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="BluetoothChat.cs">
+    <Files>
+      <File FileName="BluetoothChat.cs" Line="317" Column="33" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.BluetoothGraphTerminal AndroidDeviceId-Debug="FA2BEW401250" MonoForAntroid.PreferredDevice="3.7in WVGA (Nexus One)" />
+</Properties>
